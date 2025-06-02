@@ -1,6 +1,6 @@
 # Introduction
 
-This repository houses the R code used for simulation studies within the project titled “An augmented pseudo-likelihood approach for population-level modeling of HPV infection and cervical precancer natural history using current-status data.” Inside, there are two folders. One folder labeled utility contains all utility functions; the other folder labeled sim contains the running scripts designed for executing simulations.
+This repository houses the R code used for simulation studies within the project titled “*An augmented pseudo-likelihood approach for population-level modeling of HPV infection and cervical precancer natural history using current-status data*” Inside, there are two folders. One folder labeled *utility* contains all utility functions; the other folder labeled *sim* contains the running scripts designed for executing simulations.
 
 # utility
 
