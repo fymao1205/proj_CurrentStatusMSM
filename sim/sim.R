@@ -4,10 +4,9 @@ library(Rcpp)
 library(eha)
 library(flexsurv)
 library(parallel)
-sourceCpp("/home/maof3/HPV_appearance/pwc01_wei/rec20/commonf.cpp")
-source("/home/maof3/HPV_appearance/pwc01_wei/rec20/exp/sim/est_reg/svy/svy_genfct.r")
-#source("/home/maof3/HPV_appearance/pwc01_wei/est_pwc01.r")
-source("/home/maof3/HPV_appearance/pwc01_wei/rec20/exp/sim/est_reg/svy/est1/est_rec20.r")
+sourceCpp("./utility/commonf.cpp")
+source("./utility/dt_gen_fct.r")
+source("./utility/est_rec20.r")
 
 n <- 10000
 #lognormal parameters for age of first sex
