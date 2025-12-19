@@ -4,11 +4,11 @@ library(Rcpp)
 library(eha)
 library(flexsurv)
 library(parallel)
-sourceCpp("~/Documents/research/2022/HPV-appearance/sim/utility/commonf.cpp")
-source("~/Documents/research/2022/HPV-appearance/sim/utility/dt_gen_fct.r")
-source("~/Documents/research/2022/HPV-appearance/sim/utility/dt_csd_gen.r")
-source("~/Documents/research/2022/HPV-appearance/sim/utility/commonf.r")
-source("~/Documents/research/2022/HPV-appearance/sim/utility/est.r")
+sourceCpp("./utility/commonf.cpp")
+source("./utility/dt_gen_fct.r")
+source("./utility/dt_csd_gen.r")
+source("./utility/commonf.r")
+source("./utility/est.r")
 
 n <- 10000
 #lognormal parameters for age of first sex
