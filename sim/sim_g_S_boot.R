@@ -5,11 +5,11 @@ library(eha)
 library(flexsurv)
 library(parallel)
 library(MASS)
-sourceCpp("/home/maof3/HPV_appearance/sim1/utility/commonf.cpp")
-source("/home/maof3/HPV_appearance/sim1/utility/dt_gen_fct.R")
-#source("/home/maof3/HPV_appearance/sim1/utility/dt_csd_gen.R")
-source("/home/maof3/HPV_appearance/sim1/utility/commonf.R")
-source("/home/maof3/HPV_appearance/sim1/utility/est.R")
+sourceCpp("./utility/commonf.cpp")
+source("./utility/dt_gen_fct.R")
+#source("./utility/dt_csd_gen.R")
+source("./utility/commonf.R")
+source("./utility/est.R")
 
 n <- 5000
 #lognormal parameters for age of first sex
