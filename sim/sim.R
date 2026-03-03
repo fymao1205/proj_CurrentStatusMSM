@@ -13,10 +13,9 @@ n <- 10000
 meanlog = 2.85
 sdlog = 0.15
 d <- 0 #duration of natural immunity
-#exponential parameters for appearance
+#PWC Model for appearance
 cuts=22
 lam01=c(0.2, 0.05)
-#q01_22 <- .2; q01_22_29 <- .05 ;q01_30p <- .05
 
 #weibull parameters for time from appearance to clearance
 q10_scale <- 0.75
